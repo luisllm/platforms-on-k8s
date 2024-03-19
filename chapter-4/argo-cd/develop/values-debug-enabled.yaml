@@ -1,0 +1,10 @@
+conference-app:
+  services:
+    frontend:
+      debug: true
+  redis:
+    auth: 
+      existingSecret: develop-environment-redis
+  postgresql:
+    auth: 
+      existingSecret: develop-environment-postgresql        
